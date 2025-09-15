@@ -1,5 +1,5 @@
 import React from "react";
-import fun from "../assets/fun-img.png";
+import fun from "../assets/funImg.png";
 import "../styles/core.css";
 
 const CoreCompetencies = () => {
