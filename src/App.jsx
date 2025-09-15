@@ -4,6 +4,7 @@ import CoreCompetencies from './component/coreCompe'
 import EducationSection from './component/Education'
 import Footer from './component/footer'
 import PortfolioHeader from './component/Navbar'
+import ProfessionalExperience from './component/professionalExperience'
 import ProjectShowcase from './component/ProjectShowCase'
 import SoftSkillsSection from './component/softskill'
 
@@ -14,6 +15,7 @@ function App() {
       <PortfolioHeader/>
       <AboutSection/>
       <CoreCompetencies/>
+      <ProfessionalExperience/>
       <ProjectShowcase/>
       <EducationSection/>
       <SoftSkillsSection/>

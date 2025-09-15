@@ -1,46 +1,85 @@
 import React from "react";
-import fun from '../assets/fun-img.png'
-import '../styles/core.css'
+import fun from "../assets/fun-img.png";
+import "../styles/core.css";
+
 const CoreCompetencies = () => {
   const competencies = [
     {
       title: "Frontend Technologies and Frameworks I Excel In",
-      img:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg",
-      img2:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg",
-      img3:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg",
-      img4:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg",
-      img5:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-      img6:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      img7:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      img2: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      img3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      img4: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      img5: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      img6: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      img7: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
       description:
-        "Frontend: HTML5, CSS3, JavaScript (Advanced), TypeScript, React.js Styling: Tailwind CSS, Bootstrap, ChakraUI, shadcn/ui",
+        "Frontend: HTML5, CSS3, JavaScript (Advanced), TypeScript, React.js | Styling: Tailwind CSS, Bootstrap, ChakraUI, shadcn/ui | Responsive UI/UX and modern design principles",
+      linkText: "Learn More",
+    },
+    {
+      title: "Backend Development and API Expertise",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      img2: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      img3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+      img4: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+      img5: fun,
+      img6: fun,
+      img7: fun,
+      description:
+        "Backend: Node.js, Express.js | APIs: REST APIs, Microservices | Real-time: WebSocket, Cron Jobs | Secure Authentication & Data Pipelines",
+      linkText: "Explore",
+    },
+    {
+      title: "Database Management and Deployment",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      img2: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      img3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+      img4: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg",
+      img5: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+      img6: fun,
+      img7: fun,
+      description:
+        "Database: MongoDB | Cloud & Storage: AWS S3 | Deployment Platforms: Render, Vercel, Heroku, Netlify | Scalable and optimized DB schema design",
+      linkText: "Discover",
+    },
+    {
+      title: "Automation and Web Scraping Tools",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/puppeteer/puppeteer-original.svg",
+      img2: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg",
+      img3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg",
+      img4: fun,
+      img5: fun,
+      img6: fun,
+      img7: fun,
+      description:
+        "Automation & Scraping: Puppeteer, Playwright, Selenium | LegalTech data automation | Concurrent scraping, data ingestion pipelines",
       linkText: "Learn More",
     },
     {
       title: "Version Control and Collaboration Tools I Use",
-      img:fun,
-      img2:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
-      img3:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
-      img4:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
-      img5:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg",
-      img6:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain.svg",
-      img7:fun,
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      img2: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      img3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      img4: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      img5: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+      img6: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+      img7: fun,
       description:
-        "State Management: Redux Toolkit Version Control: Git, GitHub Development Tools: Command Line Interface (CLI), Firebase",
+        "State Management: Redux | Version Control: Git, GitHub | Tools: Postman, Firebase, CLI | Collaboration with Agile and Git-based workflows",
       linkText: "Explore",
     },
     {
       title: "Integrating APIs and Leveraging AI Tools",
-      img:fun,
-      img2:fun,
-      img3:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg",
-      img4:"https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg",
-      img5:fun,
-      img6:fun,
-      img7:fun,
-
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg",
+      img2: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      img3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg",
+      img4: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
+      img5: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg",
+      img6: fun,
+      img7: fun,
       description:
-        "API Integration & Backend Communication AI Tools & LLM Knowledge",
+        "API Integration & Documentation: Swagger | AI Tools & LLMs: OpenAI | Data Science & ML: Kaggle, Python, Jupyter | End-to-end API testing and integration",
       linkText: "Discover",
     },
   ];
@@ -49,10 +88,12 @@ const CoreCompetencies = () => {
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-2xl font-bold mb-6">
-          Frontend Development and Cutting-Edge Technologies
+          Core Skills and Technical Competencies
         </h2>
         <p className="text-gray-600 mb-10">
-         I specialize in frontend technologies, styling frameworks, state management, API integration, and version control for seamless, responsive interfaces.
+          I specialize in frontend and backend development, automation,
+          databases, version control, API integration, and leveraging AI tools
+          for modern applications.
         </p>
         <div className="grid md:grid-cols-3 gap-6">
           {competencies.map((item, index) => (
@@ -60,14 +101,14 @@ const CoreCompetencies = () => {
               key={index}
               className="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition"
             >
-              <div className="flex items-center justify-center w-full md:w-3/4 lg:w-1/2 h-auto bg-gray-200 rounded-full mb-4" >
-              <img src={item.img} alt="HTML5" class="logo-section"/>
-              <img src={item.img2} alt="CSS5" class="logo-section"/>
-              <img src={item.img3} alt="CSS5" class="logo-section"/>
-              <img src={item.img4} alt="CSS5" class="logo-section"/>
-              <img src={item.img5} alt="CSS5" class="logo-section"/>
-              <img src={item.img6} alt="CSS5" class="logo-section"/>
-              <img src={item.img7} alt="CSS5" class="logo-section"/>
+              <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
+                <img src={item.img} alt="logo" className="logo-section" />
+                <img src={item.img2} alt="logo" className="logo-section" />
+                <img src={item.img3} alt="logo" className="logo-section" />
+                <img src={item.img4} alt="logo" className="logo-section" />
+                <img src={item.img5} alt="logo" className="logo-section" />
+                <img src={item.img6} alt="logo" className="logo-section" />
+                <img src={item.img7} alt="logo" className="logo-section" />
               </div>
               <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
               <p className="text-gray-600 mb-4">{item.description}</p>
