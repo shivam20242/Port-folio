@@ -9,30 +9,46 @@ const AboutSection = () => {
         <h1 className="text-2xl font-bold mb-4">About Me: My Journey in Tech</h1>
         <p className="text-gray-600 leading-relaxed mb-4">
           I’m an Associate Software Developer with expertise in building{" "}
-          <span className="font-semibold">scalable backend systems, APIs, and automation pipelines</span>, 
-          along with a strong foundation in frontend development. At Areness Foundation, 
-          I worked on <span className="font-semibold">E-Court Case Management Systems</span>, 
+          <span className="font-semibold">
+            scalable backend systems, APIs, and automation pipelines
+          </span>
+          , along with a strong foundation in frontend development. At Areness
+          Foundation, I worked on{" "}
+          <span className="font-semibold">E-Court Case Management Systems</span>,
           integrating Supreme Court and High Court portals using{" "}
           <span className="font-semibold">
             Node.js, Express.js, MongoDB, Puppeteer, Playwright, and AWS S3
-          </span>. 
-          My focus has been on <span className="font-semibold">data automation, microservices, and real-time notifications</span> 
+          </span>
+          . My focus has been on{" "}
+          <span className="font-semibold">
+            data automation, microservices, and real-time notifications
+          </span>{" "}
           to make judicial data more accessible and reliable.
         </p>
         <p className="text-gray-600 leading-relaxed mb-4">
           Beyond backend, I have hands-on experience with{" "}
-          <span className="font-semibold">React.js, Redux, and modern UI frameworks</span>, 
-          enabling me to deliver seamless full-stack solutions. 
-          With a problem-solving mindset and continuous learning drive, 
-          I aim to craft software that balances{" "}
+          <span className="font-semibold">React.js, Redux, and modern UI frameworks</span>,
+          enabling me to deliver seamless full-stack solutions. With a problem-solving mindset
+          and continuous learning drive, I aim to craft software that balances{" "}
           <span className="font-semibold">performance, reliability, and user experience</span>.
         </p>
-        <div>
+        <div className="flex gap-4">
+          {/* Contact Button */}
           <a
             href="#"
-            className="inline-block ml-0 border border-blue-500 text-blue-500 px-4 py-2 rounded-md shadow hover:bg-blue-500 hover:text-white transition duration-300"
+            className="inline-block border border-blue-500 text-blue-500 px-4 py-2 rounded-md shadow hover:bg-blue-500 hover:text-white transition duration-300"
           >
             Contact
+          </a>
+
+          {/* Download Resume Button */}
+          <a
+            href="https://drive.google.com/file/d/1UIVwtBZjX61Mqe2-0yoW-1igMOFp4Lro/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block border border-green-500 text-green-500 px-4 py-2 rounded-md shadow hover:bg-green-500 hover:text-white transition duration-300"
+          >
+            Download Resume
           </a>
         </div>
       </div>
