@@ -1,6 +1,6 @@
 import React from "react";
 import MumbaiUniversity from '../assets/MumbaiUniversity.png'
-import masai from '../assets/masai.png'
+import masai from '../assets/masaiLogo.png'
 import MSBTE from '../assets/MSBTE.png'
 
 const EducationSection = () => {
